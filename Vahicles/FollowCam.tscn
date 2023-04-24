@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Vahicles/FollowCam.gd" type="Script" id=1]
+
+[node name="FollowCam" type="Camera"]
+transform = Transform( 1, 0, 0, 0, 0.961271, 0.275604, 0, -0.275604, 0.961271, 0, 3.42658, 7.67079 )
+size = 20.0
+script = ExtResource( 1 )
